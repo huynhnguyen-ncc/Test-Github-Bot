@@ -12,6 +12,7 @@ final class Calc {
 public class FinalDemo {
     public static void main(String[] args) {
 //      Biến final: Tạo ra hằng số
+//      Khi một biến được khai báo là final, giá trị của nó không thể thay đổi sau khi đã được gán lần đầu tiên
         final int num = 8;
         System.out.println(num);
 
