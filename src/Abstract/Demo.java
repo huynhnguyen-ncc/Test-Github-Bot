@@ -37,6 +37,24 @@ public class Demo {
         obj.fly();
     }
 }
+// --------- Advanced Concepts: Constructors in Abstract Classes ---------
+/*
+ * Khi một abstract class có constructor, constructor sẽ được gọi
+ * khi một lớp con khởi tạo, cho phép khởi tạo các trường chung.
+ */
+abstract class Computer {
+    String brand;
+    public Computer(String brand) {
+        this.brand = brand;
+        System.out.println("Computer Constructor called for: " + brand);
+    }
+}
+class Laptop extends Computer {
+    public Laptop(String brand) {
+        super(brand);
+    }
+}
+
 // Có bắt buộc phải tạo phương thuức trừu tượng trong lớp trừu tượng không?
 // Không bắt buộc phải tạo phương thức trừu tượng trong lớp trừu tượng.
 
