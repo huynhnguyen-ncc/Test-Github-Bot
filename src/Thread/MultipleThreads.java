@@ -31,6 +31,7 @@ class B implements Runnable {
 *  Scheduler sẽ quyết định luồng nào sẽ được thực thi tiếp theo
 *  Scheduler đã trao cơ hội để luồng thực hiện "Hello" được thực hiện trước
 *  Đó là lý do vì sao khi chơi game, đôi khi nhân vật của bạn không di chuyển theo trình tự hoặc không đồng bộ, vì các luồng không hoạt động bình thường
+*  Scheduler có thể quyết định cho phép một luồng thực thi liên tục trong một khoảng thời gian dài, trong khi luồng khác không được thực thi
 *  */
 //
         }
