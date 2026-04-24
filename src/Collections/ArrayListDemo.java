@@ -9,6 +9,7 @@ public class ArrayListDemo {
 //      Collection là một interface trong Java đại diện cho một nhóm các đối tượng
 //      Cần phải chỉ rõ kiểu dữ liệu của Collection
 //      Nếu không chỉ rõ kiểu dữ liệu, Collection sẽ chứa các đối tượng kiểu Object
+//      Collection
         List<Integer> nums = new ArrayList<Integer>();
         nums.add(6);
         nums.add(5);
