@@ -9,13 +9,13 @@ public class ArrayListDemo {
 //      Collection là một interface trong Java đại diện cho một nhóm các đối tượng
 //      Cần phải chỉ rõ kiểu dữ liệu của Collection
 //      Nếu không chỉ rõ kiểu dữ liệu, Collection sẽ chứa các đối tượng kiểu Object
-//      Collection
         List<Integer> nums = new ArrayList<Integer>();
         nums.add(6);
         nums.add(5);
         nums.add(8);
         nums.add(2);
 //      ArrayList là một lớp, có phương thức get() vì List hoạt động với các giá trị index
+//      Để lấy ra một phần tử từ ArrayList, sử dụng phương thức get() với đầu vào là index
 
 //      In một mảng
         System.out.println(nums.get(2));
