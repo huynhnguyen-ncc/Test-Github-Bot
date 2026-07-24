@@ -27,6 +27,7 @@ public class QuestionService {
 //          Scanner là một lớp trong Java dùng để đọc dữ liệu từ các nguồn khác nhau như bàn phím, file, chuỗi, v.v.
             selection[i] = sc.nextLine(); // Nhận lựa chọn của người dùng từ bàn phím
             i++;
+            sc.close(); // Đóng Scanner để giải phóng tài nguyên
         }
 //      Những gì nhận được là tham chiếu của câu hỏi đầu tiên trong mảng, nhưng mảng này chưa được khởi tạo với các đối tượng Question
 //      Nếu như chỉ in q mà chưa khởi tạo phương thức toString() thì sẽ in ra địa chỉ của đối tượng Question trong bộ nhớ, không phải là nội dung của câu hỏi
