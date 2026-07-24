@@ -1,0 +1,12 @@
+name: Test CI Notification
+on:
+  push:
+    branches: [ main, master ]
+jobs:
+  failing-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Failure
+        run: |
+          echo "Cố tình làm hỏng CI để test notification..."
+          exit 1
